@@ -1,0 +1,12 @@
+@media (max-width: 428px) {
+.menu,
+.add-now,
+.advantages-icon-wrap,
+.section-three {
+    display: none;
+}
+}
+@media screen (max-width: 768px) {
+}
+@media screen (max-width: 1158px) {
+}

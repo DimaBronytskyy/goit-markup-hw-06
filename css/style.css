@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  width: 1158px;
+  min-width:   320px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -55,19 +55,16 @@ img {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
+height: 70px;
+  }
 .div-header {
   display: flex;
-  justify-content: space-around;
 }
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+
 .nav-base {
   display: flex;
   align-items: center;
+  margin-top: 25.5px;
 }
 .menu {
   display: flex;
@@ -144,18 +141,25 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 72px;
 }
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  max-width: 428px;
 }
 .footer-div-div {
   margin-right: 120px;
+  margin: 0 auto;
 }
 
-.footera.apos {
+.footera {
   display: inline-block;
   margin-bottom: 16px;
+  width: 100%;
+  text-align: center;
 }
 .stu-dio-foot {
   color: #f4f4fd;
@@ -197,6 +201,7 @@ img {
 }
 .footer-socials {
   margin-right: 80px;
+  margin: 0 auto;
 }
 
 .social-zagol {
@@ -206,6 +211,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--white);
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .social-list {
@@ -244,13 +250,17 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 
 .subscribe-form {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
-
+.subscribe-form-label {
+  margin: 0 auto;
+}
 .subscribe-form-input {
   width: 264px;
   height: 40px;
@@ -275,7 +285,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -285,6 +295,7 @@ img {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  margin: 0 auto;
 }
 
 .subscribe-form-button:hover,
@@ -295,11 +306,11 @@ img {
 .subscribe-form-icon {
   margin-left: 16px;
   fill: var(--cloud);
-} 
+}
 /* 1 section 1 */
 .section-one {
   background-color: var(--navyblue);
-  padding: 188px 0;
+  padding: 112px 0;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -313,15 +324,15 @@ img {
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  min-width: 100%;
 }
 .zagol-one {
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   color: #ffffff;
-  max-width: 496px;
-  margin-left: calc(1158px - 248px - 1158px / 2);
+  align-items: center;
 }
 .first-knopka {
   background-color: #4d5ae5;
@@ -340,8 +351,8 @@ img {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-left: calc(1158px - 157px / 2 - 1158px / 2);
-  margin-top: 48px;
+  margin: 0 auto;
+  margin-top: 72px;
 }
 .first-knopka:hover {
   background-color: #404bbf;
@@ -356,16 +367,18 @@ img {
 .se-li-two {
   display: flex;
   gap: 24px;
+  flex-wrap: wrap;
   padding: 0;
   margin: 0;
 }
 .punktone {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navybluecolor);
   margin-bottom: 8px;
+  text-align: center;
 }
 .advantages-icon-wrap {
   display: flex;
@@ -380,7 +393,7 @@ img {
   margin: 24px 100px;
 }
 .selione {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  
 }
 .paragraphpunktone {
   font-size: 16px;
@@ -412,7 +425,7 @@ img {
 }
 .humenone {
   background-color: #ffffff;
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  margin: 0 auto;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -423,6 +436,7 @@ img {
 .ulsefour {
   display: flex;
   gap: 24px;
+  flex-wrap: wrap;
 }
 .cla-div-ce {
   padding: 32px 0;
@@ -635,7 +649,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 408px;
+  width: 392px;
   min-height: 584px;
   border-radius: 4px;
   background: var(--dairy, #fcfcfc);
@@ -760,7 +774,7 @@ img {
   height: 56px;
   color: var(--white, #fff);
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -779,7 +793,7 @@ img {
   margin-bottom: 24px;
 }
 
-.form-checkbox{
+.form-checkbox {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
