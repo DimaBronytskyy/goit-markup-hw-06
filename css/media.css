@@ -21,6 +21,9 @@
     height: 22px;
     margin-top: 24px;
   }
+  .subscribe-form-input {
+    width: 398px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1158px) {
   .section-three,
@@ -97,6 +100,7 @@
   .social-zagol {
     text-align: left;
   }
+  
 }
 @media (min-width: 1158px) {
   .header {
