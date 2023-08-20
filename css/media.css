@@ -4,7 +4,8 @@
   }
   .menu,
   .section-three,
-  .advantages-icon-wrap {
+  .advantages-icon-wrap,
+  .adress  {
     display: none;
   }
   .div-header {
@@ -25,7 +26,7 @@
 @media (min-width: 768px) and (max-width: 1158px) {
   .section-three,
   .advantages-icon-wrap,
-  .menu-open-button,
+  .menu-open-btn,
   .mob-menu {
     display: none;
   }
@@ -96,7 +97,16 @@
   }
 }
 @media (min-width: 1158px) {
-  .menu-open-button,
+  .header {
+    height: 45px;
+  }
+  .div-header{
+    margin-top: 25.5px;
+  }
+  .adress {
+    flex-direction: row;
+  }
+  .menu-open-btn,
   .mob-menu {
     display: none;
   }

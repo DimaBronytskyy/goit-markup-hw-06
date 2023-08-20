@@ -38,56 +38,68 @@
           </ul>
         </nav>
         <address class="add-now">
-          <ul class="list menu">
-            <li class="link spys">
+          <ul class="list adress">
+            <li class="link li-adres">
               <a class="link add-now" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="link spys">
+            <li class="link li-adres">
               <a class="link add-now" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
-        <button type="button" class="menu-open-button" data-menu-open>
-          <svg class="close-svg" width="8" height="8">
+        <button type="button" class="menu-open-btn" data-menu-open>
+          <svg width="32" height="22" class="icon-menu-open">
             <use href="./images/icons.svg#menu-hamburger"></use>
           </svg>
         </button>
       </div>
-      <div class="mob-menu">
-        <!-- class="close-button" -->
-        <button class="close-button" data-menu-close type="button">
-          <svg class="close-svg" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-black"></use>
-          </svg>
-        </button>
-        <ul class="list mob-menu-menu">
-            <li>
-              <a class="link mob-menu-spys mob-menu-menu-link-active" href="./index.html"
+      <div class="mob-menu" data-menu>
+        <div class="div-mob-one">
+          <button data-menu-close class="close-button" type="button">
+            <svg class="close-svg" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <ul class="list mob-menu-menu">
+            <li class="li-mob-menu">
+              <a
+                class="link mob-menu-spys mob-menu-menu-link-active"
+                href="./index.html"
                 >Studio</a
               >
             </li>
-            <li><a class="link mob-menu-spys" href="./portfolio.html">Portfolio</a></li>
+            <li>
+              <a class="link mob-menu-spys" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
             <li><a class="link mob-menu-spys" href="">Contacts</a></li>
           </ul>
+        </div>
+        <div class="div-mob-two">
           <address class="mob-menu-add-now">
-          <ul class="list mob-menu-menu">
-            <li class="link mob-menu-spys">
-              <a class="link mob-menu-add-now" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="link mob-menu-spys">
-              <a class="link mob-menu-add-now" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-        <ul class="social-list list">
+            <ul class="list mob-menu-menu">
+              <li class="link mob-menu-spys">
+                <a
+                  class="link mob-menu-add-now tel-mob"
+                  href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="link mob-menu-spys-adr">
+                <a
+                  class="link mob-menu-add-now"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="social-list-mob list">
             <li class="social-item">
               <a href="" class="social-link link">
                 <svg class="social-logo" width="24" height="24">
@@ -117,6 +129,7 @@
               </a>
             </li>
           </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -253,7 +266,11 @@
               </div>
             </li>
             <li class="humenone">
-              <img srcset="./images/img0min.jpg 1x, ./images/img (1)-min.jpg 2x" alt="human" width="264" />
+              <img
+                srcset="./images/img0min.jpg 1x, ./images/img (1)-min.jpg 2x"
+                alt="human"
+                width="264"
+              />
               <div class="cla-div-ce">
                 <h3 class="four-h punktone thrirdh">Tom Ford</h3>
                 <p class="parag-four paragraphpunktone">Frontend Developer</p>
@@ -290,7 +307,11 @@
               </div>
             </li>
             <li class="humenone">
-              <img srcset="./images/img2min.jpg 1x, ./images/img (2)-min.jpg 2x" alt="human" width="264" />
+              <img
+                srcset="./images/img2min.jpg 1x, ./images/img (2)-min.jpg 2x"
+                alt="human"
+                width="264"
+              />
               <div class="cla-div-ce">
                 <h3 class="four-h punktone thrirdh">Camila Garcia</h3>
                 <p class="parag-four paragraphpunktone">Marketing</p>
@@ -327,7 +348,11 @@
               </div>
             </li>
             <li class="humenone">
-              <img srcset="./images/img3min.jpg 1x, ./images/img (3)-min.jpg 2x" alt="human" width="264" />
+              <img
+                srcset="./images/img3min.jpg 1x, ./images/img (3)-min.jpg 2x"
+                alt="human"
+                width="264"
+              />
               <div class="cla-div-ce">
                 <h3 class="four-h punktone thrirdh">Daniel Wilson</h3>
                 <p class="parag-four paragraphpunktone">UI Designer</p>
@@ -565,5 +590,6 @@
       </div>
     </div>
     <script src="./modal.js"></script>
+    <script src="./menu.js"></script>
   </body>
 </html>
