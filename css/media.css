@@ -1,12 +1,128 @@
-@media (max-width: 428px) {
-.menu,
-.add-now,
-.advantages-icon-wrap,
-.section-three {
+@media (min-width: 0px) and (max-width: 768px) {
+  body {
+    
+  }
+  .menu,
+  .section-three,
+  .advantages-icon-wrap {
     display: none;
+  }
+  .div-header {
+    justify-content: space-between;
+  }
+  .header {
+    height: 70px;
+  }
+  .nav-base {
+    margin-top: 25.5px;
+  }
+  .menu-open-button {
+    width: 32px;
+    height: 22px;
+    margin-top: 24px;
+  }
 }
+@media (min-width: 768px) and (max-width: 1158px) {
+  .section-three,
+  .advantages-icon-wrap,
+  .menu-open-button,
+  .mob-menu {
+    display: none;
+  }
+  .container {
+    min-width: 768px;
+    max-width: 869px;
+  }
+  .first-knopka {
+    margin-top: 48px;
+  }
+  .zagol-one {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-top: 116px;
+  }
+  .div-header {
+    height: 72px;
+  }
+  .humenone {
+    margin: 0;
+  }
+  .ulsefour {
+    justify-content: center;
+    gap: 72px 24px;
+  }
+  .section-five-item {
+    width: calc((100% - 3 * 16px) / 3);
+    height: 88px;
+  }
+  .section-five-list {
+    margin-right: 108px;
+    margin-left: 108px;
+  }
+  .se-li-two {
+    gap: 72px 24px;
+  }
+  .selione {
+    max-width: 356px;
+  }
+  .footer-container {
+    margin-left: 108px;
+    gap: 0px;
+    max-width: 496px;
+  }
+  .footer-div-div {
+    margin: 0;
+    margin-right: 24px;
+  }
+  .footer-socials {
+    margin: 0;
+  }
+  .footer-container-subscribe {
+    margin-top: 72px;
+  }
+  .subscribe-text {
+    text-align: left;
+  }
+  .footera{
+    text-align: left;
+  }
+  .social-zagol {
+    text-align: left;
+  }
 }
-@media screen (max-width: 768px) {
-}
-@media screen (max-width: 1158px) {
+@media (min-width: 1158px) {
+  .menu-open-button,
+  .mob-menu {
+    display: none;
+  }
+  .container {
+    max-width: 1158px;
+  }
+  .section-five-item {
+    max-width: 168px;
+  }
+  .selione {
+    max-width: 264px;
+  }
+  .section-one {
+    height: 600px;
+  }
+  .first-knopka {
+    margin-top: 48px;
+  }
+  .zagol-one {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-top: 116px;
+  }
 }
