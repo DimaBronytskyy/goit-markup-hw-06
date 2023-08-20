@@ -1,11 +1,10 @@
 @media (min-width: 0px) and (max-width: 768px) {
   body {
-    
   }
   .menu,
   .section-three,
   .advantages-icon-wrap,
-  .adress  {
+  .adress {
     display: none;
   }
   .div-header {
@@ -72,9 +71,12 @@
     max-width: 356px;
   }
   .footer-container {
-    margin-left: 108px;
-    gap: 0px;
-    max-width: 496px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding-left: 108px;
+    gap: 72px 24px;
+    justify-content: left;
   }
   .footer-div-div {
     margin: 0;
@@ -89,7 +91,7 @@
   .subscribe-text {
     text-align: left;
   }
-  .footera{
+  .footera {
     text-align: left;
   }
   .social-zagol {
@@ -100,7 +102,7 @@
   .header {
     height: 45px;
   }
-  .div-header{
+  .div-header {
     margin-top: 25.5px;
   }
   .adress {
