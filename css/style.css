@@ -341,7 +341,7 @@ img {
   margin: 0 auto;
 }
 .subscribe-form-input {
-  width: 264px;
+  max-width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
