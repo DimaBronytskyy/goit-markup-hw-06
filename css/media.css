@@ -25,12 +25,29 @@
     width: 398px;
   }
   .section-one {
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/Dark-bg-2-min.jpg);
-}
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-2-min.jpg);
+  }
+  .four-h {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+  }
+  .punktone {
+    text-align: center;
+  }
+  .ulsefour-mob {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .footer-container-subscribe{
+   width: 100%;
+  }
 }
 @media (min-width: 768px) and (max-width: 1158px) {
   .section-three,
@@ -60,7 +77,9 @@
     height: 72px;
   }
   .humenone {
+    max-width: 264px;
     margin: 0;
+    flex-basis: calc((100% - 216px) / 2);
   }
   .ulsefour {
     justify-content: center;
@@ -78,7 +97,7 @@
     gap: 72px 24px;
   }
   .selione {
-    max-width: 356px;
+    flex-basis: calc((100% - 24px) / 2);
   }
   .footer-container {
     flex-direction: row;
@@ -111,16 +130,24 @@
       ),
       url(../images/Dark-bg-min.jpg);
   }
+  .spys {
+    padding: 24px 0 27px;
+  }
+  .four-h {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+  }
 }
 @media (min-width: 1158px) {
-  .header {
-    height: 45px;
-  }
-  .div-header {
-    margin-top: 25.5px;
-  }
   .adress {
     flex-direction: row;
+  }
+  .section-one {
+    max-width: 1440px;
+    padding: 188px 0 188px;
   }
   .menu-open-btn,
   .mob-menu {
@@ -135,9 +162,6 @@
   .selione {
     max-width: 264px;
   }
-  .section-one {
-    height: 600px;
-  }
   .first-knopka {
     margin-top: 48px;
   }
@@ -149,7 +173,17 @@
     color: #ffffff;
     max-width: 496px;
     margin: 0 auto;
-    margin-top: 116px;
   }
-  
+  .four-h {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+  }
+  .punktone {
+    font-size: 20px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+  }
 }
