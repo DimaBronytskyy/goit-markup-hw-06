@@ -53,10 +53,9 @@
   .subscribe-form-label {
     width: 100%;
     margin: 0 auto;
-}
-  .footer-container-subscribe{
-   width: 100%;
-   
+  }
+  .footer-container-subscribe {
+    width: 100%;
   }
 }
 @media (min-width: 768px) and (max-width: 1158px) {
@@ -195,5 +194,13 @@
     font-size: 20px;
     line-height: 1.2em;
     letter-spacing: 0.02em;
+  }
+  .footera,
+  .social-zagol,
+  .subscribe-text {
+    text-align: left;
+  }
+  .subscribe-form-input {
+    width: 264px;
   }
 }
